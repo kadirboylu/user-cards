@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --h1: 42px;
+  --h2: 24px;
+  --h3: 18px;
+  --h4: 14px;
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+  user-select: none;
+  font-size: 14px;
+}
+
+h1 {
+  font-size: var(--h1);
+}
+
+h2 {
+  font-size: var(--h2);
+}
+
+h3 {
+  font-size: var(--h3);
+}
+
+h4 {
+  font-size: var(--h4);
+}
+
+.link {
+  color: steelblue;
+}
+
+.link:visited {
+  color: steelblue;
+}
+
+.link:hover {
+  color: rgb(0, 140, 255);
+}

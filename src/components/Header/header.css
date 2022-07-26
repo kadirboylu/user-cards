@@ -1,0 +1,43 @@
+h1 {
+  font-family: "Courgette", cursive;
+}
+
+.header-wrapper {
+  width: 100%;
+  background-image: linear-gradient(blueviolet, rgb(190, 70, 70));
+  margin-bottom: 1.5rem;
+}
+
+.header-wrapper h1 a {
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-decoration: none;
+}
+
+.search {
+  text-align: center;
+  padding: 1rem;
+}
+
+.header-wrapper input {
+  width: 60%;
+  height: 2rem;
+  border: none;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0 2px 4px 0 blueviolet, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media (max-width: 1200px) {
+  .search input {
+    width: 90%;
+  }
+}
